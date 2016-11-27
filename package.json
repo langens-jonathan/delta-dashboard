@@ -1,0 +1,28 @@
+{
+  "name": "delta-dashboard",
+  "version": "0.0.1",
+  "description": "A dashboard for the delta service, this will provide the user with updates/deltas.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/langens-jonathan/delta-dashboard.git"
+  },
+  "keywords": [
+    "delta",
+    "SPARQL",
+    "dashboard"
+  ],
+  "author": "Jonathan Langens <flowofcontrol@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/langens-jonathan/delta-dashboard/issues"
+  },
+  "homepage": "https://github.com/langens-jonathan/delta-dashboard#readme",
+  "devDependencies": {
+    "express": "^4.14.0"
+  }
+}
